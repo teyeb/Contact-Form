@@ -1,0 +1,84 @@
+
+body> container-fluid{
+    width: 100%;
+}
+
+body{
+    background: #1e130c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.minHeight{
+    min-height: 100vh;
+}
+
+
+ 
+
+#contactForm{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 5px;  
+
+    background: #B79891;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #94716B, #B79891);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #94716B, #B79891); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+}
+
+#messageArea{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    label,input{
+        font-size: 14px;    
+    }
+
+    #optional{
+        display: none;
+    }
+
+    #contactForm{
+        width: 80%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    label,input{
+        font-size: 6px;
+    }
+
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    label,input{
+        font-size: 16px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    label,input{
+        font-size: 18px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    label,input{
+        font-size: 22px;
+    }
+}
+
+
